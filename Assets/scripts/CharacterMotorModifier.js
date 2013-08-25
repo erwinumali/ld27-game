@@ -26,7 +26,7 @@ function Update(){
     if (ch.isGrounded && Input.GetKey("left shift") || Input.GetKey("right shift")){
         speed = runSpeed;
     }
-    if (Input.GetKey("left ctrl")){ // press C to crouch
+    if (Input.GetKey("c")){ // press C to crouch
         h = 0.5 * height;
         speed = crchSpeed; // slow down when crouching
     }
